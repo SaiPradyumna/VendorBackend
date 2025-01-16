@@ -8,7 +8,7 @@ const bodyParser = require("body-parser")
 const productRoutes = require("./routes/productRoutes")
 const firmRoutes = require("./routes/firmRoutes")
 const cors = require("cors")
-const PORT = 4000
+const PORT = process.env.PORT || 4000
 dotEnv.config()
 
 app.use((cors()))
