@@ -28,7 +28,3 @@ app.listen(PORT, () => {
 
     console.log(`Server started and running at ${PORT}`)
 })
-
-app.use('/',(req,res)=>{
-    res.send("<h1>Welcome to QuickBite</h1>")
-})
