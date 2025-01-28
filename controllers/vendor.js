@@ -24,6 +24,7 @@ const vendorregister= async(req,res)=>{
         const hashedPassword=await bcrypt.hash(password,10)
 
         const newoutlet=new vendor({
+            
 
             username,
             email,

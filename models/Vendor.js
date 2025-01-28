@@ -25,6 +25,6 @@ const outletSchema=new mongoose.Schema({
     ]
 })
 
-const vendor=mongoose.model("vendor",outletSchema)
+const vendor=mongoose.model("vendor",outletSchema) //mongoose handles case senstitive so saripoindi for firm thing
 
 module.exports=vendor
